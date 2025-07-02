@@ -12,10 +12,31 @@
 # print(moyenne)
 # print(notes_sup)
 
-Ch1 = "Le langage Python est très populaire"
-Ch2 = "Python est un langage puissant"
+######################
 
-Ch1_words = set(Ch1.split())
-Ch2_words = set(Ch2.split())
-common = Ch1_words & Ch2_words
-print(common)
+# Ch1 = "Le langage Python est très populaire"
+# Ch2 = "Python est un langage puissant"
+
+# Ch1_words = set(Ch1.split())
+# Ch2_words = set(Ch2.split())
+# common = Ch1_words & Ch2_words
+# print(common)
+
+#########################
+stock = ["Stylo", 25, "Classeur", 100, "Crayon", 12, "Surligneur", 40, "Feutre", 5]
+InitialValue = stock[0]
+print(InitialValue)
+
+data = []
+for a in stock:
+    if isinstance(a , str):
+        data.append(a)
+print(data)
+
+data2 = []
+for b in stock:
+    if isinstance(b ,int):
+        data2.append(b)
+print(data2)
+
+        
