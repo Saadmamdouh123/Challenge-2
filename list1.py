@@ -23,20 +23,28 @@
 # print(common)
 
 #########################
-stock = ["Stylo", 25, "Classeur", 100, "Crayon", 12, "Surligneur", 40, "Feutre", 5]
-InitialValue = stock[0]
-print(InitialValue)
+# stock = ["Stylo", 25, "Classeur", 100, "Crayon", 12, "Surligneur", 40, "Feutre", 5]
+# InitialValue = stock[0]
+# print(InitialValue)
 
-data = []
-for a in stock:
-    if isinstance(a , str):
-        data.append(a)
-print(data)
+# data = []
+# for a in stock:
+#     if isinstance(a , str):
+#         data.append(a)
+# print(data)
 
-data2 = []
-for b in stock:
-    if isinstance(b ,int):
-        data2.append(b)
-print(data2)
+# data2 = []
+# for b in stock:
+#     if isinstance(b ,int):
+#         data2.append(b)
+# print(data2)
 
-        
+
+# data2.sort()
+# print(data2)
+
+# data.sort()
+# print(data)
+
+##############################
+
