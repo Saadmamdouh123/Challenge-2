@@ -48,3 +48,17 @@
 
 ##############################
 
+def ElementSearch(element, lst):
+    if element in lst:
+        return True
+    else:
+        return False
+
+names = ["saad", "anas", "ayoub"]
+print(ElementSearch("saad", names))
+
+data = [1, "raja", 3, 4]
+print(ElementSearch("raja", data))  
+print(ElementSearch(10, data))       
+
+    
